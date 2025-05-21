@@ -17,5 +17,6 @@ git pull origin master :- this command brings the changes made in github to loca
 git push origin devoloper :- this command pushes the current branch to the github repository.
 git pull origin name-of-the-new-branch :- this pulls the new branch from github to local.
 
-
+Branching stratergies
+git checkout -b filename :- to create a new branch under the master or main branch.
 
