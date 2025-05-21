@@ -19,4 +19,5 @@ git pull origin name-of-the-new-branch :- this pulls the new branch from github 
 
 Branching stratergies
 git checkout -b filename :- to create a new branch under the master or main branch.
-
+git fetch :- to bring the branch from remote 
+git log :- to veiw the log and detailed operations previously done.
