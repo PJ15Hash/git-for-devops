@@ -13,7 +13,9 @@ git status :- this will check the current status of files in repository , so tha
 git push origin master :- push the files to github.
 
 To pull from git hub to local computer
-git pull origin master :- this command brings the changes made in github to local computer 
+git pull origin master :- this command brings the changes made in github to local computer.
+git push origin devoloper :- this command pushes the current branch to the github repository.
+git pull origin name-of-the-new-branch :- this pulls the new branch from github to local.
 
 Branching stratergies
 git checkout -b filename :- to create a new branch under the master or main branch.
