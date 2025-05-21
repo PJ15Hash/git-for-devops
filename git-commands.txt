@@ -12,3 +12,6 @@ git branch :- to check the current branch of the repository. (master on local co
 git status :- this will check the current status of files in repository , so that the code changed according to the time is updated to tracked mode and pushed to github repository.
 git push origin master :- push the files to github.
 
+To pull from git hub to local computer
+
+
