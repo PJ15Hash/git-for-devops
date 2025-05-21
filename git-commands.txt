@@ -1,0 +1,4 @@
+Git Commands
+git init :- creates an empty repository
+git add  :- to bring a file to staged condition from untracked position.
+git rm --cached :- to bring the stged condition file to untracked position.
