@@ -2,3 +2,13 @@ Git Commands
 git init :- creates an empty repository
 git add  :- to bring a file to staged condition from untracked position.
 git rm --cached :- to bring the stged condition file to untracked position.
+git commit -m "to bring the files to tracked stage from staged position".
+git restore filename :- to restore a deleted file from tracked position.
+
+To Push from local computer to github 
+git remote add origin https:// :- this command connects the local computer repository to github using personal access token , which is genrated on github.
+git remote -v :- to check the remote origin 
+git branch :- to check the current branch of the repository. (master on local computer ans main on github).
+git status :- this will check the current status of files in repository , so that the code changed according to the time is updated to tracked mode and pushed to github repository.
+git push origin master :- push the files to github.
+
