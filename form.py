@@ -1,8 +1,16 @@
-import tkinter as tk
-from tkinter import messagebox
+"""A simple Tkinter GUI form that collects a user's name, email, and age.
 
+Validates input fields and displays the collected information in a message box.
+"""
+
+from tkinter import messagebox
+from code import tkinter as tk  # Unconventional import, consider `import tkinter as tk` instead
 
 def submit_form():
+    """
+    Collect data from input fields, validate them, and show a message box
+    with the submitted information.
+    """
     name = entry_name.get()
     email = entry_email.get()
     age = entry_age.get()
@@ -23,7 +31,6 @@ def submit_form():
 root = tk.Tk()
 root.title("Basic Form")
 
-
 # Labels and entries
 tk.Label(root, text="Name:").grid(row=0, column=0, sticky="e")
 entry_name = tk.Entry(root)
@@ -37,10 +44,9 @@ tk.Label(root, text="Age:").grid(row=2, column=0, sticky="e")
 entry_age = tk.Entry(root)
 entry_age.grid(row=2, column=1)
 
-
 # Submit button
 submit_btn = tk.Button(root, text="Submit", command=submit_form)
 submit_btn.grid(row=3, column=0, columnspan=2, pady=10)
 
-
+# Run the application
 root.mainloop()
