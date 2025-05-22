@@ -3,8 +3,9 @@
 Validates input fields and displays the collected information in a message box.
 """
 
+import tkinter as tk
 from tkinter import messagebox
-from code import tkinter as tk  # Unconventional import, consider `import tkinter as tk` instead
+ # Unconventional import, consider `import tkinter as tk` instead
 
 def submit_form():
     """
@@ -50,3 +51,4 @@ submit_btn.grid(row=3, column=0, columnspan=2, pady=10)
 
 # Run the application
 root.mainloop()
+
