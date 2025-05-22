@@ -44,5 +44,3 @@ submit_btn.grid(row=3, column=0, columnspan=2, pady=10)
 
 
 root.mainloop()
-
-passwd - 123
