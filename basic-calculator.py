@@ -1,22 +1,27 @@
 """A simple command-line calculator application."""
 
+
 def add(x_val, y_val):
     """Return the sum of x_val and y_val."""
     return x_val + y_val
+
 
 def subtract(x_val, y_val):
     """Return the difference between x_val and y_val."""
     return x_val - y_val
 
+
 def multiply(x_val, y_val):
     """Return the product of x_val and y_val."""
     return x_val * y_val
+
 
 def divide(x_val, y_val):
     """Return the result of dividing x_val by y_val. Handle division by zero."""
     if y_val == 0:
         return "Error: Cannot divide by zero."
     return x_val / y_val
+
 
 def main():
     """Main function to run the calculator."""
@@ -27,7 +32,9 @@ def main():
     print("3. Multiply")
     print("4. Divide")
 
-    choice = input("Enter choice (1/2/3/4): ")
+    choice = input(
+        "Enter choice (1/2/3/4): "
+    )
 
     if choice not in ('1', '2', '3', '4'):
         print("Invalid choice")
@@ -47,7 +54,10 @@ def main():
     elif choice == '3':
         print(f"Result: {multiply(num1, num2)}")
     elif choice == '4':
-        print(f"Result: {divide(num1, num2)}")
+        print(
+            f"Result: {divide(num1, num2)}"
+        )
+
 
 if __name__ == "__main__":
     main()
