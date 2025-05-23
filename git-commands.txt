@@ -29,3 +29,17 @@ git hooks are located in .git --> hooks folder-- pre commit , usualy written in 
 Git actions
 to create ci/cd pipelines , workflows and streamline a entire project 
 scripts are written in yaml/yml file in git actions over github 
+
+
+project " To deploy a static website via s3 bucket"
+automate the entire process through git actions 
+create a ci cd workflow in github actions
+create a aws user in iam 
+create a access key and assign it to github repository secret key tab 
+create a workflow yml file by selecting aws deployment actions 
+edit yml file and declare the aws access key id  and access key , to connect githun to aws bucket
+create a s3 bucket  
+enable static website hosting and add permissions and bucket policies
+
+go back to github and run the actions
+check for error and clear them in streamline.
